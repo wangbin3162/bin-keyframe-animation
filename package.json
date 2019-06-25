@@ -1,0 +1,14 @@
+{
+  "name": "bin-keyframe-animation",
+  "version": "1.0.0",
+  "description": "关键帧动画库",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server",
+    "build": "webpack --mode production"
+  },
+  "author": "wangbin",
+  "dependencies": {
+    "webpack": "^4.35.0"
+  }
+}
