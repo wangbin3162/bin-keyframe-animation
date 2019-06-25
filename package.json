@@ -2,13 +2,28 @@
   "name": "bin-keyframe-animation",
   "version": "1.0.0",
   "description": "关键帧动画库",
-  "main": "index.js",
+  "main": "build/animation.min.js",
   "scripts": {
     "dev": "live-server",
-    "build": "webpack --mode production"
+    "build": "webpack --config webpack.config.js",
+    "build:prod": "webpack --config webpack.prod.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangbin3162/bin-keyframe-animation.git"
+  },
+  "keywords": [
+    "common",
+    "frame",
+    "animation",
+    "h5"
+  ],
   "author": "wangbin",
+  "license": "MIT",
   "dependencies": {
     "webpack": "^4.35.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.5"
   }
 }

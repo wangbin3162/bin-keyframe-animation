@@ -334,7 +334,7 @@ function createAnimation () {
   return new Animation()
 }
 
-// createAnimation.version = __VERSION__
+createAnimation.version = __VERSION__
 
 module.exports = createAnimation
 
