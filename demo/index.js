@@ -9,7 +9,7 @@ var $rabbit2 = $('rabbit2')
 var $rabbit3 = $('rabbit3')
 var $rabbit4 = $('rabbit4')
 
-var images = ['./demo/rabbit-big.png', './demo/rabbit-lose.png', './demo/rabbit-win.png']
+var images = ['./rabbit-big.png', './rabbit-lose.png', './rabbit-win.png']
 
 var rightRunningMap = ['0 -854', '-174 -852', '-349 -852', '-524 -852', '-698 -851', '-873 -848']
 var leftRunningMap = ['0 -373', '-175 -376', '-350 -377', '-524 -377', '-699 -377', '-873 -379']
