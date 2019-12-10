@@ -1,7 +1,7 @@
 ## keyframe-animation
 =========
 
-[Demo](http://wangbin3162.github.io/preview/bin-keyframe-animation/)
+[Demo](http://wangbin3162.gitee.io/bin-keyframe-animation/)
 
 通常我们会遇到一些需求，用js实现一组动画（这里指的是由一帧帧图片组合而成的动画，非jq的animate）。
 
